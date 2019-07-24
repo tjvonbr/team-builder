@@ -12,12 +12,14 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Lambda School WEB21 Build Week Team</h1>
-      <TeamDisplay value={team}/>
-
-      <h3>Are you interested in joining the team?  Sign up below!</h3>
-      <MemberForm add={addMember}/>
-
+      <div className="team-wrapper">
+        <h1>Lambda School WEB21 Build Week Team</h1>
+        <TeamDisplay value={team}/>
+      </div>
+      <div className="signup-wrapper">
+        <h3>Are you interested in joining the team?  Sign up below!</h3>
+        <MemberForm add={addMember}/>
+      </div>
     </div>
   );
 }
