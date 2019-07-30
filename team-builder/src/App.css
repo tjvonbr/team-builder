@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  font-family: "Roboto", "Helvetica" sans-serif;
+  font-family: "Roboto", "Helvetica", sans-serif;
 }
 
 .App-logo {
@@ -36,10 +36,24 @@
   margin: 10px 0;
   background-color: #0066cc;
   color: white;
+  font-weight: bold;
+}
+
+.form {
+  width: 20%;
+  margin: auto;
 }
 
 .form-group {
   margin-top: 20px;
+}
+
+legend {
+  background-color: #0066cc;
+  padding: 3px;
+  color: white;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
 }
 
 @keyframes App-logo-spin {
